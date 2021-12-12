@@ -5,6 +5,8 @@
 }
 
 .quote-box {
+    border-style: solid;
+    border: 5px solid rgb(0, 255, 200);
     margin-left: auto;
     margin-right: auto;
     width: 60%;
@@ -14,22 +16,31 @@
     color: grey;
 }
 
-.new-quote {
-    text-align: center;
-    color: white;
-    background-color: black;
-}
-
 .text {
+    font-size: 50px;
     color: black;
 }
 
 .author {
+    text-align: right;
+    font-size: 40px;
     color: black;
 }
 
+.new-quote-button {
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+}
 .tweet-button {
     text-align: center;
     color: white;
     background-color: blue;
+    font-size: 30px;
+}
+
+.tag-line {
+    text-align: center;
+    font-size: 15px;
 }
