@@ -1,12 +1,13 @@
 .title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
-    color: black;
+    color: white;
     text-align: center;
 }
 
 .quote-box {
     border-style: solid;
-    border: 5px solid rgb(0, 255, 200);
+    border: 5px solid rgb(139, 126, 153);
     margin-left: auto;
     margin-right: auto;
     width: 60%;
@@ -17,23 +18,27 @@
 }
 
 .text {
+    font-family: Verdana;
     font-size: 50px;
-    color: black;
+    color: white;
 }
 
 .author {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: right;
     font-size: 40px;
-    color: black;
+    color: white;
 }
 
 .new-quote-button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color: white;
     background-color: black;
     font-size: 30px;
 }
 .tweet-button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color: white;
     background-color: blue;
@@ -41,6 +46,7 @@
 }
 
 .tag-line {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-size: 15px;
 }
