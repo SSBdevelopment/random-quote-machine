@@ -1,1 +1,27 @@
+.title {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
 
+.quote-box {
+    display: flex;
+    width: 60%;
+    color: white;
+}
+
+.new-quote {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.text {
+    color: black;
+}
+
+.tweet-button {
+    text-align: center;
+    color: white;
+    background-color: blue;
+}

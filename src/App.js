@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import './App.css';
-import './styles.css';
 import quotes from './quotes.js';
 
 //function App() {
 class App extends Component {
   constructor(props) {
     super(props);
+    //set initial random quote using random function
     let initial_index = Math.floor(Math.random() * quotes.length);
     let currentQuote = quotes[initial_index];
     this.state = {
@@ -25,7 +25,7 @@ class App extends Component {
     }
     this.initial_index = index;
     let currentQuote = quotes[index];
-
+    //update the quote
     this.setState({
       quote: currentQuote.quote,
       author: currentQuote.author
@@ -35,12 +35,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 className="quote">Random Quote</h1>
-        <p>{this.state.quote}</p>
-        <p> - {this.state.author}</p>
+        <h1 id="title" className="title">Random Quote Machine</h1>
+        <wrapper id="quote-box" className="quote-box">
+        <p id="text" className="text">"{this.state.quote}"</p>
+        <p id="author"> - {this.state.author}</p>
       <header>
-        <button className="new-quote" onClick={this.handleClick}>New Quote</button>
+        <button id="new-quote" className="new-quote" onClick={this.handleClick}>New Quote</button>
       </header>
+      <a id="tweet-quote" href={encodeURI(`http://www.twitter.com/intent/tweet?text="${this.state.quote}" -${this.state.author}`)}><button className="tweet-button">Tweet Quote</button></a>
+      </wrapper>
       </div>
     );
   }
