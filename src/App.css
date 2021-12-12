@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com');
+
 .title {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 50px;
+    font-weight: bold;
     color: white;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
 }
 
 .quote-box {
@@ -13,32 +20,38 @@
     width: 60%;
     align-items: center;
     text-align: center;
-    position: relative;
+    top: 50%;
+    left: 50%;
+    position: flex;
     color: grey;
 }
 
 .text {
     font-family: Verdana;
     font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
     color: white;
 }
 
 .author {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: right;
     font-size: 40px;
     color: white;
 }
 
 .new-quote-button {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
+    font-weight: bold;
     color: white;
     background-color: black;
     font-size: 30px;
 }
 .tweet-button {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     text-align: center;
     color: white;
     background-color: blue;
@@ -47,6 +60,7 @@
 
 .tag-line {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(12, 11, 11);
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
 }
