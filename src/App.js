@@ -36,14 +36,16 @@ class App extends Component {
     return (
       <div className="App">
         <h1 id="title" className="title">Random Quote Machine</h1>
-        <wrapper id="quote-box" className="quote-box">
-        <p id="text" className="text">"{this.state.quote}"</p>
-        <p id="author"> - {this.state.author}</p>
-      <header>
-        <button id="new-quote" className="new-quote" onClick={this.handleClick}>New Quote</button>
-      </header>
-      <a id="tweet-quote" href={encodeURI(`http://www.twitter.com/intent/tweet?text="${this.state.quote}" -${this.state.author}`)}><button className="tweet-button">Tweet Quote</button></a>
-      </wrapper>
+        {/*<wrapper id="quote-box" className="quote-box">*/}
+        <div id="quote-box" className="quote-box">
+          <p id="text" className="text">"{this.state.quote}"</p>
+          <p id="author" className="author"> - {this.state.author}</p>
+          <header>
+            <button id="new-quote" className="new-quote" onClick={this.handleClick}>New Quote</button>
+            <a id="tweet-quote" href={encodeURI(`http://www.twitter.com/intent/tweet?text="${this.state.quote}" -${this.state.author}`)}><button className="tweet-button">Tweet Quote</button></a>
+          </header>
+        {/*</wrapper>*/}
+        </div>
       </div>
     );
   }

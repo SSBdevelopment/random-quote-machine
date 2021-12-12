@@ -5,9 +5,13 @@
 }
 
 .quote-box {
-    display: flex;
+    margin-left: auto;
+    margin-right: auto;
     width: 60%;
-    color: white;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: grey;
 }
 
 .new-quote {
@@ -17,6 +21,10 @@
 }
 
 .text {
+    color: black;
+}
+
+.author {
     color: black;
 }
 
