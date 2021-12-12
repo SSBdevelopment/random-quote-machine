@@ -1,6 +1,6 @@
 const quotes = [
     {
-        "quote": "The hardest choices require the strongest wills",
+        "quote": "The hardest choices require the strongest wills.",
         "author": "Thanos"
     },
     {
@@ -8,7 +8,7 @@ const quotes = [
         "author": "Albert Einstein"
     },
     {
-        "quote": "People say nothing is impossible, but I do nothing every day",
+        "quote": "People say nothing is impossible, but I do nothing every day.",
         "author": "A.A. Milne"
     }
 ]
